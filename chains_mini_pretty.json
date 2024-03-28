@@ -177,7 +177,7 @@
     "symbol": "FLR",
     "decimals": 18
   },
-  "rpc": ["https://flare-api.flare.network/ext/C/rpc", "https://flare.rpc.thirdweb.com", "https://flare-bundler.etherspot.io", "https://rpc.ankr.com/flare", "https://rpc.ftso.au/flare", "https://flare.enosys.global/ext/C/rpc", "https://flare.solidifi.app/ext/C/rpc"],
+  "rpc": ["https://flare-api.flare.network/ext/C/rpc", "https://flare.rpc.thirdweb.com", "https://flare-bundler.etherspot.io", "https://rpc.ankr.com/flare", "https://01-gravelines-003-01.rpc.tatum.io/ext/bc/C/rpc", "https://01-vinthill-003-02.rpc.tatum.io/ext/bc/C/rpc", "https://rpc.ftso.au/flare", "https://flare.enosys.global/ext/C/rpc", "https://flare.solidifi.app/ext/C/rpc"],
   "faucets": [],
   "infoURL": "https://flare.network"
 }, {
@@ -203,7 +203,7 @@
     "symbol": "CFLR",
     "decimals": 18
   },
-  "rpc": ["https://coston-api.flare.network/ext/C/rpc", "https://flare-testnet-coston.rpc.thirdweb.com", "https://coston.enosys.global/ext/C/rpc"],
+  "rpc": ["https://coston-api.flare.network/ext/C/rpc", "https://songbird-testnet-coston.rpc.thirdweb.com", "https://01-gravelines-004-01.rpc.tatum.io/ext/bc/C/rpc", "https://02-chicago-004-02.rpc.tatum.io/ext/bc/C/rpc", "https://02-tokyo-004-03.rpc.tatum.io/ext/bc/C/rpc", "https://coston.enosys.global/ext/C/rpc"],
   "faucets": ["https://faucet.flare.network"],
   "infoURL": "https://flare.network"
 }, {
@@ -242,7 +242,7 @@
     "symbol": "SGB",
     "decimals": 18
   },
-  "rpc": ["https://songbird-api.flare.network/ext/C/rpc", "https://rpc.ftso.au/songbird", "https://songbird.enosys.global/ext/C/rpc", "https://songbird.solidifi.app/ext/C/rpc"],
+  "rpc": ["https://songbird-api.flare.network/ext/C/rpc", "https://01-gravelines-006-01.rpc.tatum.io/ext/bc/C/rpc", "https://01-vinthill-006-02.rpc.tatum.io/ext/bc/C/rpc", "https://02-tokyo-006-03.rpc.tatum.io/ext/bc/C/rpc", "https://rpc.ftso.au/songbird", "https://songbird.enosys.global/ext/C/rpc", "https://songbird.solidifi.app/ext/C/rpc"],
   "faucets": [],
   "infoURL": "https://flare.network"
 }, {
@@ -1477,7 +1477,7 @@
     "symbol": "C2FLR",
     "decimals": 18
   },
-  "rpc": ["https://coston2-api.flare.network/ext/C/rpc", "https://flare-testnet-coston2.rpc.thirdweb.com", "https://flaretestnet-bundler.etherspot.io", "https://coston2.enosys.global/ext/C/rpc"],
+  "rpc": ["https://coston2-api.flare.network/ext/C/rpc", "https://flare-testnet-coston2.rpc.thirdweb.com", "https://flaretestnet-bundler.etherspot.io", "https://01-gravelines-005-01.rpc.tatum.io/ext/bc/C/rpc", "https://02-chicago-005-02.rpc.tatum.io/ext/bc/C/rpc", "https://02-tokyo-005-03.rpc.tatum.io/ext/bc/C/rpc", "https://coston2.enosys.global/ext/C/rpc"],
   "faucets": ["https://faucet.flare.network"],
   "infoURL": "https://flare.network"
 }, {
@@ -3092,6 +3092,19 @@
   "rpc": ["https://rpc-bitfalls1.lisinski.online"],
   "faucets": ["https://pipa.lisinski.online"],
   "infoURL": "https://lisinski.online"
+}, {
+  "name": "CamDL Testnet",
+  "chainId": 395,
+  "shortName": "camdl-testnet",
+  "networkId": 395,
+  "nativeCurrency": {
+    "name": "CADL",
+    "symbol": "CADL",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc1.testnet.camdl.gov.kh/"],
+  "faucets": ["https://faucet.testnet.camdl.gov.kh/"],
+  "infoURL": "https://camdl.gov.kh/"
 }, {
   "name": "Nativ3 Mainnet",
   "chainId": 399,
@@ -11569,9 +11582,9 @@
   "faucets": ["https://faucet.oneg8.network"],
   "infoURL": "https://oneg8.one"
 }, {
-  "name": "unreal",
+  "name": "unreal-old",
   "chainId": 18231,
-  "shortName": "unreal",
+  "shortName": "unreal-old",
   "networkId": 18231,
   "nativeCurrency": {
     "name": "unreal Ether",
@@ -11579,6 +11592,19 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.unreal.gelato.digital", "wss://ws.unreal.gelato.digital"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/unreal"
+}, {
+  "name": "unreal",
+  "chainId": 18233,
+  "shortName": "unreal",
+  "networkId": 18233,
+  "nativeCurrency": {
+    "name": "unreal Ether",
+    "symbol": "reETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.unreal-orbit.gelato.digital", "wss://ws.unreal-orbit.gelato.digital"],
   "faucets": [],
   "infoURL": "https://raas.gelato.network/rollups/details/public/unreal"
 }, {
@@ -14403,6 +14429,19 @@
   "faucets": [],
   "infoURL": "https://siberium.net"
 }, {
+  "name": "re.al",
+  "chainId": 111188,
+  "shortName": "re-al",
+  "networkId": 111188,
+  "nativeCurrency": {
+    "name": "re.al Ether",
+    "symbol": "reETH",
+    "decimals": 18
+  },
+  "rpc": ["https://real.drpc.org", "wss://real.drpc.org"],
+  "faucets": [],
+  "infoURL": "https://re.al"
+}, {
   "name": "Metachain One Mainnet",
   "chainId": 112358,
   "shortName": "metao",
@@ -16469,6 +16508,19 @@
   "rpc": ["https://pegorpc.com", "https://node1.pegorpc.com", "https://node2.pegorpc.com", "https://node3.pegorpc.com"],
   "faucets": [],
   "infoURL": "https://pego.network"
+}, {
+  "name": "DeBank Sepolia Testnet",
+  "chainId": 20240324,
+  "shortName": "dbkse",
+  "networkId": 20240324,
+  "nativeCurrency": {
+    "name": "DeBank USD",
+    "symbol": "USD",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia-rpc.testnet.debank.com"],
+  "faucets": [],
+  "infoURL": "https://debank.com"
 }, {
   "name": "Hokum Testnet",
   "chainId": 20482050,
