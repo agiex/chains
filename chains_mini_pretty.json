@@ -4419,6 +4419,19 @@
   "faucets": [],
   "infoURL": "https://decentrabone.com"
 }, {
+  "name": "TAPROOT Mainnet",
+  "chainId": 911,
+  "shortName": "TAPROOT-Mainnet",
+  "networkId": 911,
+  "nativeCurrency": {
+    "name": "TBTC",
+    "symbol": "TBTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.taprootchain.io"],
+  "faucets": [],
+  "infoURL": "https://taprootchain.io"
+}, {
   "name": "Rinia Testnet",
   "chainId": 917,
   "shortName": "tfire",
@@ -4987,7 +5000,7 @@
     "symbol": "HEART",
     "decimals": 18
   },
-  "rpc": ["https://jsonrpc.humans.nodestake.top", "https://humans-mainnet-evm.itrocket.net", "https://humans-evm-rpc.staketab.org:443", "https://evm.humans.stakepool.dev.br", "https://mainnet-humans-evm.konsortech.xyz", "https://evm-rpc.mainnet.humans.zone", "https://json-rpc.humans.bh.rocks"],
+  "rpc": ["https://jsonrpc.humans.nodestake.top", "https://humans-mainnet-evm.itrocket.net", "https://humans-evm-rpc.staketab.org:443", "https://evm.humans.stakepool.dev.br", "https://mainnet-humans-evm.konsortech.xyz", "https://evm-rpc.mainnet.humans.zone", "https://json-rpc.humans.bh.rocks", "https://evm-rpc.humans.huginn.tech"],
   "faucets": [],
   "infoURL": "https://humans.ai"
 }, {
@@ -8800,6 +8813,19 @@
   "faucets": [],
   "infoURL": "https://www.superloyal.com/"
 }, {
+  "name": "Azra Testnet",
+  "chainId": 5106,
+  "shortName": "azra-testnet",
+  "networkId": 5106,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-azra-testnet-6hz86owb1n.t.conduit.xyz"],
+  "faucets": [],
+  "infoURL": "https://azragames.com"
+}, {
   "name": "Bahamut",
   "chainId": 5165,
   "shortName": "ftn",
@@ -8903,6 +8929,19 @@
   "rpc": ["https://nodetestnet-station-one.tritanium.network/", "https://nodetestnet-station-two.tritanium.network/"],
   "faucets": ["https://faucet.tritanium.network"],
   "infoURL": "https://tritanium.network"
+}, {
+  "name": "Egochain",
+  "chainId": 5439,
+  "shortName": "egax",
+  "networkId": 5439,
+  "nativeCurrency": {
+    "name": "EGAX",
+    "symbol": "EGAX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.egochain.org"],
+  "faucets": [],
+  "infoURL": "https://docs.egochain.org/"
 }, {
   "name": "VEX EVM TESTNET",
   "chainId": 5522,
@@ -10607,6 +10646,19 @@
   "faucets": [],
   "infoURL": "https://larissa.network"
 }, {
+  "name": "Espento Mainnet",
+  "chainId": 9911,
+  "shortName": "spent",
+  "networkId": 9911,
+  "nativeCurrency": {
+    "name": "ESPENTO",
+    "symbol": "SPENT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.escscan.com/"],
+  "faucets": [],
+  "infoURL": "https://espento.network"
+}, {
   "name": "Mind Smart Chain Testnet",
   "chainId": 9977,
   "shortName": "tMIND",
@@ -11023,13 +11075,13 @@
   "faucets": ["https://faucet.sardisnetwork.com"],
   "infoURL": "https://mysardis.com"
 }, {
-  "name": "SanR Chain",
+  "name": "Santiment Intelligence Network",
   "chainId": 11888,
   "shortName": "SAN",
   "networkId": 11888,
   "nativeCurrency": {
-    "name": "nSAN",
-    "symbol": "nSAN",
+    "name": "SANR",
+    "symbol": "SANR",
     "decimals": 18
   },
   "rpc": ["https://sanrchain-node.santiment.net"],
@@ -11243,6 +11295,19 @@
   "rpc": ["https://rpc.phoenixplorer.com/"],
   "faucets": [],
   "infoURL": "https://cryptophoenix.org/phoenix"
+}, {
+  "name": "Masa",
+  "chainId": 13396,
+  "shortName": "masa",
+  "networkId": 13396,
+  "nativeCurrency": {
+    "name": "Masa Token",
+    "symbol": "MASA",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/masanetwork/mainnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://masa.finance"
 }, {
   "name": "Immutable zkEVM Testnet",
   "chainId": 13473,
@@ -12661,6 +12726,19 @@
   "faucets": [],
   "infoURL": "https://frenchain.app"
 }, {
+  "name": "Quantum Network",
+  "chainId": 44445,
+  "shortName": "QTM",
+  "networkId": 44445,
+  "nativeCurrency": {
+    "name": "Quantum",
+    "symbol": "QTM",
+    "decimals": 18
+  },
+  "rpc": ["https://rpcqtm.avescoin.io"],
+  "faucets": [],
+  "infoURL": "https://avescoin.io/"
+}, {
   "name": "Celo Alfajores Testnet",
   "chainId": 44787,
   "shortName": "ALFA",
@@ -13401,6 +13479,19 @@
   "rpc": ["https://v1.mainnet.godwoken.io/rpc"],
   "faucets": [],
   "infoURL": "https://www.nervos.org"
+}, {
+  "name": "CAGA crypto Ankara testnet",
+  "chainId": 72778,
+  "shortName": "caga",
+  "networkId": 72778,
+  "nativeCurrency": {
+    "name": "Caga",
+    "symbol": "CAGA",
+    "decimals": 18
+  },
+  "rpc": ["https://www.ankara-cagacrypto.com", "wss://wss.ankara-cagacrypto.com"],
+  "faucets": [],
+  "infoURL": "https://www.cagacrypto.com/"
 }, {
   "name": "Grok Chain Mainnet",
   "chainId": 72992,
@@ -14249,7 +14340,7 @@
 }, {
   "name": "Masa Testnet",
   "chainId": 103454,
-  "shortName": "masa",
+  "shortName": "masatest",
   "networkId": 103454,
   "nativeCurrency": {
     "name": "Masa Token",
@@ -15586,16 +15677,16 @@
   "faucets": ["https://testnet-faucet.helachain.com"],
   "infoURL": "https://helalabs.com"
 }, {
-  "name": "Galadriel Testnet",
+  "name": "Galadriel Devnet",
   "chainId": 696969,
-  "shortName": "galadriel-testnet",
+  "shortName": "galadriel-devnet",
   "networkId": 696969,
   "nativeCurrency": {
-    "name": "Galadriel Testnet token",
+    "name": "Galadriel Devnet token",
     "symbol": "GAL",
     "decimals": 18
   },
-  "rpc": ["https://testnet.galadriel.com"],
+  "rpc": ["https://devnet.galadriel.com"],
   "faucets": ["https://docs.galadriel.com/faucet"],
   "infoURL": "https://galadriel.com"
 }, {
@@ -15897,6 +15988,19 @@
   "rpc": ["https://mainnet-rpc.ecroxscan.com/"],
   "faucets": [],
   "infoURL": "https://ecroxcoin.io/"
+}, {
+  "name": "Netmind Chain Testnet",
+  "chainId": 1100789,
+  "shortName": "nmtTest",
+  "networkId": 1100789,
+  "nativeCurrency": {
+    "name": "NMT",
+    "symbol": "NMT",
+    "decimals": 18
+  },
+  "rpc": ["https://testblock.protago-dev.com"],
+  "faucets": [],
+  "infoURL": "https://netmind.ai"
 }, {
   "name": "Tiltyard Subnet",
   "chainId": 1127469,

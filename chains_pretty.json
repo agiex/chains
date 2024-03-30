@@ -7105,6 +7105,28 @@
   "networkId": 910,
   "slip44": 1
 }, {
+  "name": "TAPROOT Mainnet",
+  "title": "TAPROOT Mainnet",
+  "chain": "TAPROOT CHAIN",
+  "rpc": ["https://rpc.taprootchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TBTC",
+    "symbol": "TBTC",
+    "decimals": 18
+  },
+  "infoURL": "https://taprootchain.io",
+  "shortName": "TAPROOT-Mainnet",
+  "chainId": 911,
+  "networkId": 911,
+  "icon": "taproot",
+  "explorers": [{
+    "name": "TAPROOT Scan",
+    "url": "https://scan.taprootchain.io",
+    "icon": "taproot",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Rinia Testnet",
   "chain": "FIRE",
   "icon": "rinia",
@@ -7971,7 +7993,7 @@
 }, {
   "name": "Humans.ai Mainnet",
   "chain": "Humans",
-  "rpc": ["https://jsonrpc.humans.nodestake.top", "https://humans-mainnet-evm.itrocket.net", "https://humans-evm-rpc.staketab.org:443", "https://evm.humans.stakepool.dev.br", "https://mainnet-humans-evm.konsortech.xyz", "https://evm-rpc.mainnet.humans.zone", "https://json-rpc.humans.bh.rocks"],
+  "rpc": ["https://jsonrpc.humans.nodestake.top", "https://humans-mainnet-evm.itrocket.net", "https://humans-evm-rpc.staketab.org:443", "https://evm.humans.stakepool.dev.br", "https://mainnet-humans-evm.konsortech.xyz", "https://evm-rpc.mainnet.humans.zone", "https://json-rpc.humans.bh.rocks", "https://evm-rpc.humans.huginn.tech"],
   "faucets": [],
   "nativeCurrency": {
     "name": "HEART",
@@ -14094,6 +14116,25 @@
   "chainId": 5105,
   "networkId": 5105
 }, {
+  "name": "Azra Testnet",
+  "chain": "Azra Testnet",
+  "rpc": ["https://rpc-azra-testnet-6hz86owb1n.t.conduit.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://azragames.com",
+  "shortName": "azra-testnet",
+  "chainId": 5106,
+  "networkId": 5106,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorerl2new-azra-testnet-6hz86owb1n.t.conduit.xyz",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Bahamut",
   "title": "Bahamut mainnet",
   "chain": "Bahamut",
@@ -14246,6 +14287,25 @@
     "icon": "tritanium",
     "url": "https://testnet.tritanium.network",
     "standard": "none"
+  }]
+}, {
+  "name": "Egochain",
+  "chainId": 5439,
+  "shortName": "egax",
+  "chain": "EGAX",
+  "networkId": 5439,
+  "nativeCurrency": {
+    "name": "EGAX",
+    "symbol": "EGAX",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.egochain.org"],
+  "faucets": [],
+  "infoURL": "https://docs.egochain.org/",
+  "explorers": [{
+    "name": "egoscan",
+    "url": "https://egoscan.io",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "VEX EVM TESTNET",
@@ -16954,6 +17014,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Espento Mainnet",
+  "chain": "SPENT",
+  "rpc": ["https://rpc.escscan.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ESPENTO",
+    "symbol": "SPENT",
+    "decimals": 18
+  },
+  "infoURL": "https://espento.network",
+  "shortName": "spent",
+  "chainId": 9911,
+  "networkId": 9911,
+  "icon": "espento",
+  "explorers": [{
+    "name": "escscan",
+    "url": "https://escscan.com",
+    "icon": "espento",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Mind Smart Chain Testnet",
   "chain": "tMIND",
   "icon": "mindchain",
@@ -17606,13 +17687,13 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "SanR Chain",
-  "chain": "SanRChain",
+  "name": "Santiment Intelligence Network",
+  "chain": "Santiment Intelligence Network",
   "rpc": ["https://sanrchain-node.santiment.net"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "nSAN",
-    "symbol": "nSAN",
+    "name": "SANR",
+    "symbol": "SANR",
     "decimals": 18
   },
   "infoURL": "https://sanr.app",
@@ -17628,8 +17709,8 @@
     }]
   },
   "explorers": [{
-    "name": "SanR Chain Explorer",
-    "url": "https://sanrchain-explorer.santiment.net",
+    "name": "Santiment Intelligence Explorer",
+    "url": "https://app-explorer-pos.sanr.app",
     "standard": "none"
   }]
 }, {
@@ -17970,6 +18051,29 @@
   "explorers": [{
     "name": "phoenixplorer",
     "url": "https://phoenixplorer.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Masa",
+  "chain": "MASA",
+  "icon": "masa",
+  "rpc": ["https://subnets.avax.network/masanetwork/mainnet/rpc"],
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Masa Token",
+    "symbol": "MASA",
+    "decimals": 18
+  },
+  "infoURL": "https://masa.finance",
+  "shortName": "masa",
+  "chainId": 13396,
+  "networkId": 13396,
+  "explorers": [{
+    "name": "Masa Explorer",
+    "url": "https://subnets.avax.network/masa",
     "standard": "EIP3091"
   }]
 }, {
@@ -20301,6 +20405,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Quantum Network",
+  "chain": "Quantum",
+  "rpc": ["https://rpcqtm.avescoin.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Quantum",
+    "symbol": "QTM",
+    "decimals": 18
+  },
+  "infoURL": "https://avescoin.io/",
+  "shortName": "QTM",
+  "chainId": 44445,
+  "networkId": 44445,
+  "icon": "quantum",
+  "explorers": [{
+    "name": "Quantum Explorer",
+    "url": "https://qtm.avescoin.io",
+    "icon": "quantum",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Celo Alfajores Testnet",
   "chainId": 44787,
   "shortName": "ALFA",
@@ -21542,6 +21667,26 @@
     "name": "GWScan Block Explorer",
     "url": "https://v1.gwscan.com",
     "standard": "none"
+  }]
+}, {
+  "name": "CAGA crypto Ankara testnet",
+  "chain": "Ankara",
+  "rpc": ["https://www.ankara-cagacrypto.com", "wss://wss.ankara-cagacrypto.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Caga",
+    "symbol": "CAGA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.cagacrypto.com/",
+  "shortName": "caga",
+  "chainId": 72778,
+  "networkId": 72778,
+  "icon": "ankaracaga",
+  "explorers": [{
+    "name": "ankara",
+    "url": "https://explorer.ankara-cagacrypto.com",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Grok Chain Mainnet",
@@ -22877,6 +23022,7 @@
 }, {
   "name": "Masa Testnet",
   "chain": "MASA",
+  "icon": "masa",
   "rpc": ["https://subnets.avax.network/masatestne/testnet/rpc"],
   "features": [{
     "name": "EIP1559"
@@ -22888,7 +23034,7 @@
     "decimals": 18
   },
   "infoURL": "https://masa.finance",
-  "shortName": "masa",
+  "shortName": "masatest",
   "chainId": 103454,
   "networkId": 103454,
   "explorers": [{
@@ -25108,17 +25254,17 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Galadriel Testnet",
+  "name": "Galadriel Devnet",
   "chain": "Galadriel",
-  "rpc": ["https://testnet.galadriel.com"],
+  "rpc": ["https://devnet.galadriel.com"],
   "faucets": ["https://docs.galadriel.com/faucet"],
   "nativeCurrency": {
-    "name": "Galadriel Testnet token",
+    "name": "Galadriel Devnet token",
     "symbol": "GAL",
     "decimals": 18
   },
   "infoURL": "https://galadriel.com",
-  "shortName": "galadriel-testnet",
+  "shortName": "galadriel-devnet",
   "chainId": 696969,
   "networkId": 696969,
   "explorers": [{
@@ -25613,6 +25759,28 @@
   "explorers": [{
     "name": "Ecrox Chain Explorer",
     "url": "https://ecroxscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Netmind Chain Testnet",
+  "title": "NetMind Chain Testnet",
+  "chain": "NetMind",
+  "rpc": ["https://testblock.protago-dev.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NMT",
+    "symbol": "NMT",
+    "decimals": 18
+  },
+  "infoURL": "https://netmind.ai",
+  "shortName": "nmtTest",
+  "chainId": 1100789,
+  "networkId": 1100789,
+  "icon": "netmind",
+  "explorers": [{
+    "name": "NetMind Testnet Explorer",
+    "url": "https://testbrower.protago-dev.com",
+    "icon": "netmind",
     "standard": "EIP3091"
   }]
 }, {

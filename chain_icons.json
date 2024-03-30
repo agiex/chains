@@ -1719,6 +1719,14 @@
     "format": "png"
   }]
 }, {
+  "name": "masa",
+  "icons": [{
+    "url": "ipfs://QmV4f9byENNduHgLi8o1pC1sBNe3QAege2NnFkqGkTKojT",
+    "width": 1000,
+    "height": 1000,
+    "format": "png"
+  }]
+}, {
   "name": "metadap",
   "icons": [{
     "url": "ipfs://QmcCFUTStKKJKfzTwrjfMFoVaPCMsvAvWXRdDkYMvCkEs3",
@@ -1988,6 +1996,14 @@
     "url": "ipfs://QmVyAuAnKKNnGEpqeYMLPRfMdysLgPBTZeEXihXbRytGhp",
     "width": 1024,
     "height": 1024,
+    "format": "png"
+  }]
+}, {
+  "name": "quantum",
+  "icons": [{
+    "url": "ipfs://QmeKQVv2QneHaaggw2NfpZ7DGMdjVhPywTdse5RzCs4oGn",
+    "width": 232,
+    "height": 232,
     "format": "png"
   }]
 }, {
@@ -2524,6 +2540,14 @@
     "url": "ipfs://QmfQ1yae6uvXgBSwnwJM4Mtp8ctH66tM6mB1Hsgu4XvsC9",
     "width": 2000,
     "height": 2000,
+    "format": "png"
+  }]
+}, {
+  "name": "ankaracaga",
+  "icons": [{
+    "url": "ipfs://Qmeiop9gSdzU4NNJ6GCuPk6AeYwD9pbhEFVfRdk4dXs3kJ",
+    "width": 640,
+    "height": 640,
     "format": "png"
   }]
 }, {
@@ -3319,6 +3343,14 @@
     "format": "png"
   }]
 }, {
+  "name": "espento",
+  "icons": [{
+    "url": "ipfs://QmVvQdmAj6GNQjP1dsxQKbA7xgzqsciooGTQtQ2RsJ37Lf",
+    "width": 335,
+    "height": 335,
+    "format": "svg"
+  }]
+}, {
   "name": "ultrapro",
   "icons": [{
     "url": "ipfs://QmT11iJMLe9sAk5NiRQbe2wv1jtLFCs2sF2w9vFwDLkkgE",
@@ -3756,6 +3788,14 @@
     "url": "ipfs://QmVJBGeFYZXMQqicNdzctMfvPN5CrtRrfZBTw3CEpkCBsS",
     "width": 1500,
     "height": 1500,
+    "format": "png"
+  }]
+}, {
+  "name": "netmind",
+  "icons": [{
+    "url": "ipfs://QmQNipd6uen7sm7HZXGbqhcSVkUXxu3Tp6c3BoeFpvmywp",
+    "width": 500,
+    "height": 500,
     "format": "png"
   }]
 }, {
@@ -4412,6 +4452,14 @@
     "url": "ipfs://bafkreihfoy2kgf2rebaoicso7z5h7ju46z6gtr64mskkths3qbfkrtnkjm",
     "width": 190,
     "height": 170,
+    "format": "png"
+  }]
+}, {
+  "name": "taproot",
+  "icons": [{
+    "url": "ipfs://QmeucqvcreQk8nnSRUiHo3QTvLoYYB7shJTKXj5Tk6BtWi",
+    "width": 100,
+    "height": 100,
     "format": "png"
   }]
 }, {
